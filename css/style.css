@@ -1,0 +1,18 @@
+body,div,ul,li,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+ul{list-style: none;}
+
+.wrap{}
+.header{position: relative;z-index: 30;}
+.main-container{position: relative;z-index: 20;}
+
+/* header */
+.hd-inner{position: relative;padding: 10px 0;background-color:#6DBEE4;}
+.hd-inner .btn{display: block;background-image: url(../images/sp_new_common.png);background-size: 200px 216px; position: absolute;text-indent: -9999px;}
+.search-container{position: relative;margin: 0 100px;padding: 0 50px 0 24px;background-color: #fff;height: 40px;border-radius: 20px}
+.search-text{width: 100%;height: 34px;border-width: 0;}
+
+.btn-menu{left: 0;top: 10px;}
+.btn-logo{width: 37px;height: 27px; left: 55px;top: 10px;}
+.btn-search{right: 10px;top: 10px;}
+.btn-cart{right: 55px;top: 10px;}
+.btn-user{right: 0;top: 10px;}
